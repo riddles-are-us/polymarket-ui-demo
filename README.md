@@ -13,8 +13,8 @@ A demo project showcasing the usage of polymarket-ui components.
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm or yarn
+- Node.js (v18 or higher, tested with Node 18, 20, and 22)
+- npm, pnpm
 
 ### Installation
 
@@ -28,12 +28,20 @@ Install dependencies
 
 ```bash
 npm install
+# or using yarn
+yarn
+# or using pnpm
+pnpm install
 ```
 
 Start development server
 
 ```bash
 npm run dev
+# or using yarn
+yarn dev
+# or using pnpm
+pnpm dev
 ```
 
 ### Available Scripts
@@ -43,13 +51,15 @@ npm run dev
 
 ## Project Structure
 
+```
 ├── src/
-│ ├── pages/
-│ │ ├── MarketPage.tsx # Main market page
-│ │ └── CustomPage.tsx # Custom layout demo
-│ ├── main.tsx # Application entry point
-│ └── index.css # Global styles
+│   ├── pages/
+│   │   ├── MarketPage.tsx # Main market page
+│   │   └── CustomPage.tsx # Custom layout demo
+│   ├── main.tsx # Application entry point
+│   └── index.css # Global styles
 ├── vite.config.ts # Vite configuration
 ├── tailwind.config.js # Tailwind CSS configuration
 ├── package.json # Project dependencies
 └── README.md # Project documentation
+```
